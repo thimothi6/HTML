@@ -1,0 +1,70 @@
+.main{
+    display:flex;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+}
+.box:hover{
+    transform: translateY(200px);
+    transform: all 5s ease;
+}
+.box1{
+    position: relative;
+    bottom: 0%;
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    animation:fall-down 5s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+}
+.box2{
+    position: relative;
+    bottom: 0%;
+    background-color:rgb(22, 21, 21);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    animation:fall-down 3s ease-in 0s infinite alternate;
+    animation-fill-mode: both;
+}
+.box3{
+    position: relative;
+    bottom: 0%;
+    background-color:rgb(77, 243, 11);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    animation:fall-down 2s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+}
+.box4{
+    position: relative;
+    bottom: 0%;
+    background-color:rgb(15, 11, 243);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    animation:fall-down 4s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+}
+@keyframes fall-down{
+    0%{
+        position:relative;
+        top:90vh;
+        background-color: aqua;
+    }
+    100%{
+        position: relative;
+        top:0
+    }
+
+}
+.box1:hover{
+    background-color: blue;
+    height: 20px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+

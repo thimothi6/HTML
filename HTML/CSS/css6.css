@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(149, 218, 149);
+    box-sizing: border-box;
+    height: 100vh;
+}
+.section{
+    background: linear-gradient(white,rgb(0, 4, 255));
+    display: flex;
+}
+img{
+    height: 400px;
+    width: 200px;
+    mix-blend-mode: darken;
+}
+img:hover{
+   opacity: 0.6;
+}
+.para{
+    font-size:18px;
+}
+@media screen and(max-width:480px){
+   .section{
+    background-color: red;
+    flex-direction: column-reverse;
+   }
+   .para{
+    font-size: 14px;
+   }
+}
+ 

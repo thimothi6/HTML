@@ -1,0 +1,70 @@
+@import url('http://font.googleapis.com/css?family=Raleway:400,700');
+:root{
+    --primary:#fb4d62;
+    --secondary: orange;
+    --font-size1:24px;
+}
+body{
+    background:linear-gradient(rgb(221, 161, 161),rgb(56, 121, 56))
+}
+main{
+    justify-content: center;
+    align-items:center;
+}
+img{
+    border-radius: 90px;
+}
+img:hover{
+    border-radius: 0px;
+    transition: all 1s ease;
+}
+#input{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#h1{
+    text-align: center;
+    font-size:40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-shadow:red;
+}
+#dt{
+    justify-content: center;
+    align-items: center;
+    display:flexbox;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px 40px;
+    border-radius:7px;
+    transition: all 2s ease;
+}
+.button :hover{
+    background-color: chartreuse;
+    color: black;
+}
+#name{
+    background-color:rgb(41, 29, 29);
+    text-align: center;
+    box-sizing: 1px;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 2px 2px red;
+    scale: 1.01;
+    padding:5px;
+    border-radius: 5px 5px;
+    transition: all 1s ease;
+    color: white;
+}
+#name:hover{
+    background-color:white;
+    color: black;   
+}
+fieldset{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

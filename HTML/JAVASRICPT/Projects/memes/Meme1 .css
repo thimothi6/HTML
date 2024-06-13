@@ -1,0 +1,106 @@
+*{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parent{
+    background-image:url(./neon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent > h1 {
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.582);
+}
+
+.child{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+input{
+    padding: 10px 30px;
+    background-color: #e0dee7;
+    border-radius: 5px;
+    width: 50%;
+    /* font-weight:600; */
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+input:hover{
+    background-color: white;
+    color: black;
+}
+
+button{
+    width: 65%;
+    padding: 10px 30px;
+    /* width: 230px; */
+    border-radius: 5px;
+    background-color: #352f4d;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+#l{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+}
+
+#r{
+    border-radius: 10px;
+    /* background-color: #0336FF; */
+    border: 3px solid #0033ff;
+    height: 450px;
+    width: 400px;
+    /* background-color: red; */
+    height: 450px;
+    width: 400px;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+    flex-direction: column;
+}
+
+#cha{
+  /* background-color: yellow; */
+  height: 100%;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  /* right: 0px; */
+}
+
+#t1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* background-color: gray; */
+  }
+  
+  #t2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* background-color: green; */
+  }

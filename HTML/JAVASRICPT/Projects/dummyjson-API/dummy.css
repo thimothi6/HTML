@@ -1,0 +1,67 @@
+img{
+    margin-top: -13px !important;
+    height: 300px;
+    width: 300px;
+}
+
+*{
+    font-family: "Ubuntu",sans-serif;
+}
+
+#main{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    row-gap: 40px;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.btndabba{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* widht: 800%; */
+    width: 70%;
+}
+.btndabba>button {
+    height: 30px !important;
+    width: fit-content;
+    font-size: 15px;
+}
+.dabba{
+    height: 410px;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.589);
+    box-shadow: 5px 5px 15px -1px rgb(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dabba img{
+    padding: 10px;
+    height: 300px;
+    width: 290px;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px,70px;
+    background: url(../memes/neon.jpg);
+    color: white;
+    box-shadow: 5px 5px 15px -1px rgb(0,0,0,0.2);
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+#model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    z-index: 1;
+} 

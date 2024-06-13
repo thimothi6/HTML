@@ -1,0 +1,7 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(121, 128, 122, 0.418);
+}
+i:hover {
+    cursor: pointer;
+}

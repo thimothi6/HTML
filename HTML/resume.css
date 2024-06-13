@@ -1,0 +1,15 @@
+body{
+    
+    background:linear-gradient(rgb(245, 2, 2),rgb(38, 38, 184),rgb(124, 101, 101)); height: 100pvh;
+}
+.tel{
+    color:white;
+}
+.mail{
+    color: white;
+}
+#img{
+    margin-left:50%;
+    border-radius:2%;
+    box-sizing: border-box;
+}

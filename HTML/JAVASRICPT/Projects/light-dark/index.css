@@ -1,0 +1,11 @@
+.btn3{
+    background-color:rgba(0, 0, 255, 0.486);
+    color: black;
+    padding: 3px;
+    display: flex;
+    border-radius: 25px;
+}
+.btn3:hover{
+    background-color: black;
+    color: white;
+}

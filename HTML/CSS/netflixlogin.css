@@ -1,0 +1,81 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-blend-mode: darken;
+    background-repeat:no-repeat;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 500px;
+    border: transparent;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+h1{
+    margin-left:119px;
+    font-style:italic;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius:5px;
+    width: 240px;
+    height: 40px;
+    border:solid;
+    border-color:rgb(70, 67, 67);
+    border-width:0.5px;
+}
+button{
+    color: white;
+    width: 246px;
+    height: 30px;
+    margin-left:120px;
+    border:none;
+    border-radius:5px;
+    border-color: rgb(70, 67, 67);
+}
+h3{
+    text-align: center;
+}
+#Email{
+    margin-left: 120px;
+}
+#password{
+    margin-left: 120px;
+}
+#usesign{
+    margin-left:120px;
+    background-color: rgba(63, 60, 60, 0.418);
+}
+::placeholder{
+    padding:4rem;
+}
+.check{
+    width: 20px;
+    border-color: rgb(236, 21, 21);
+    border-radius:5px;
+    margin-left: 62px;
+}
+a{
+    color: white;
+    margin-left: 200px;
+}
+p{
+    margin-left: 120px;
+}
+#password{
+    margin-left: 120px;
+}
+.four{
+    margin-left: 70px;
+}
+.five{
+    margin-left: 20px;
+}
+header{
+    margin-left: 60px;
+    margin-top: 30px;
+}
